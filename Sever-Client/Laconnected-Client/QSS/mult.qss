@@ -1,0 +1,10 @@
+/*应用管理器的界面设置样式*/
+
+/*多媒体工具类*/
+/*音乐播放器按钮*/
+#music_play{
+    qproperty-icon:url(:/media/music.png); 
+    qproperty-iconSize: 100px 90px;
+    qproperty-toolButtonStyle: ToolButtonTextUnderIcon;
+    border-style:none;
+}

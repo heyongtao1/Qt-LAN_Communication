@@ -1,0 +1,383 @@
+
+/*登录界面*/
+#head_bt{
+    border-style:none;  /*默认值：边框不显示*/}
+#head_bt:hover{
+    border-radius:3px;
+    padding-top:0px ;
+    border: 1px solid rgb(300 , 300 , 300);
+}
+#close_bt{
+    border-style:none;  /*默认值：边框不显示*/}
+#close_bt:hover{
+    border-radius:3px;
+    padding-top:0px ;
+    border: 1px solid rgb(300 , 300 , 300);
+}
+#narrow_bt{
+    border-style:none;  /*默认值：边框不显示*/}
+#narrow_bt:hover{
+    border-radius:3px;
+    padding-top:0px ;
+    border: 1px solid rgb(300 , 300 , 300);
+}
+#set_bt{
+  border-style:none;  /*默认值：边框不显示*/
+}
+#set_bt:hover{
+    border-radius:3px;
+    padding-top:0px ;
+    border: 1px solid rgb(300 , 300 , 300);
+}
+/*服务器配置界面*/
+#yes_bt{
+ border-style:none;  /*默认值：边框不显示*/
+}
+#yes_bt:hover{
+    border-radius:3px;
+    padding-top:0px ;
+    border: 1px solid rgb(300 , 300 , 300);
+}
+#cancel_bt{
+ border-style:none;  /*默认值：边框不显示*/
+}
+#cancel_bt:hover{
+    border-radius:3px;
+    padding-top:0px ;
+    border: 1px solid rgb(300 , 300 , 300);
+}
+
+/*注册按钮*/
+#logonBt{
+    border-style:none;  /*默认值：边框不显示*/
+}
+
+QComboBox::drop-down
+{
+    width:20px;
+    background:transparent; /*不加此句下拉箭头背景色为灰色与整体样式不一致，也可设置 border:0px; border-radius:0px; background:white; border-left:0px ; 即设置为无边框*/
+    padding-right:5px;
+}
+
+QComboBox::hover
+{
+    border-radius:3px;
+    padding-top:0px ;
+    border: 1px solid rgb(200 , 200 , 200);
+}
+
+/*状态显示*/
+#stateBt_4{
+    border-style:none;  /*默认值：边框不显示*/
+}
+/*鼠标靠近按钮*/
+#stateBt_4:hover{
+    border-radius:3px;
+    padding-top:0px ;
+    border: 1px solid rgb(300 , 300 , 300);
+}
+/*其他按钮 帮助、服务器配置等*/
+#log_otherBt{
+    border-style:none;
+}
+#log_otherBt:hover{
+    border-radius:3px;
+    padding-top:0px ;
+    border: 1px solid rgb(200 , 200 , 200);
+}
+/*输入用户名和密码框设置圆角*/
+#UserEdit_4,#PasswordEdit_4{
+    background:white;
+    padding-left:5px ;
+    padding-top:1px ;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    border: 1px solid rgb(209 , 209 , 209);
+
+}
+/*鼠标靠近控件时*/
+QLineEdit#PasswordEdit_4:hover
+{
+    padding-top:0px ;
+    border: 1px solid rgb(21 , 131 , 221);
+}
+/*鼠标靠近控件时*/
+QLineEdit#UserEdit_4:hover
+{
+    padding-top:0px ;
+    border: 1px solid rgb(21 , 131 , 221);
+}
+
+
+/*登录按钮*/
+#regBt{
+    /*qproperty-icon:url(:/resource/登录.png);*/
+    /*qproperty-iconsize: 295px 44px;*/
+    /*qproperty-toolButtonStyle: ToolButtonTextUnderIcon;*/  /*文本设置在图标的下方*/
+    border-style:none;  /*默认值：边框不显示*/
+}
+
+/*主界面样式*/
+/*用户默认头像按钮设置*/
+#User_Head_Bt{
+    border-style:none;  /*默认值：边框不显示*/
+}
+#User_Head_Bt:hover{
+    border-radius:45px;
+    padding-top:0px ;
+    border: 1px solid rgb(200 , 200 , 200);
+}
+#friend_bt{
+    qproperty-icon:url(:/comicon/contacts.png);
+    qproperty-iconSize: 60px 60px;
+    qproperty-toolButtonStyle: ToolButtonTextUnderIcon;  /*文本设置在图标的下方*/
+    border-style:none;  /*默认值：边框不显示*/
+}
+#friend_bt:hover{
+    border-radius:45px;
+    padding-top:0px ;
+    border: 1px solid rgb(200 , 200 , 200);
+}
+
+#group_bt{
+    qproperty-icon:url(:/comicon/group_normal.png);
+    qproperty-iconSize: 60px 60px;
+    qproperty-toolButtonStyle: ToolButtonTextUnderIcon;  /*文本设置在图标的下方*/
+    border-style:none;  /*默认值：边框不显示*/
+}
+#group_bt:hover{
+    border-radius:45px;
+    padding-top:0px ;
+    border: 1px solid rgb(200 , 200 , 200);
+}
+#chart_bt{
+    qproperty-icon:url(:/comicon/conversation_normal.png);
+    qproperty-iconSize: 60px 60px;
+    qproperty-toolButtonStyle: ToolButtonTextUnderIcon;  /*文本设置在图标的下方*/
+    border-style:none;  /*默认值：边框不显示*/
+}
+#chart_bt:hover{
+    border-radius:45px;
+    padding-top:0px ;
+    border: 1px solid rgb(200 , 200 , 200);
+}
+#media_bt{
+    qproperty-icon:url(:/comicon/applay.png);
+    qproperty-iconSize: 60px 60px;
+    qproperty-toolButtonStyle: ToolButtonTextUnderIcon;  /*文本设置在图标的下方*/
+    border-style:none;  /*默认值：边框不显示*/
+}
+#media_bt:hover{
+    border-radius:45px;
+    padding-top:0px ;
+    border: 1px solid rgb(200 , 200 , 200);
+}
+#other_operations_bt{
+    border-style:none;  /*默认值：边框不显示*/
+}
+#other_operations_bt:hover{
+    border-radius:45px;
+    padding-top:0px ;
+    border: 1px solid rgb(200 , 200 , 200);
+}
+/*用户窗口*/
+#userwin{
+    border-style:none;
+    background:transparent;
+}
+/*添加好友*/
+#addBt{
+    border-style:none;
+    background:transparent;
+}
+#addBt:hover{
+    border-radius:3px;
+    padding-top:0px ;
+    border: 1px solid rgb(200 , 200 , 200);
+}
+/*多媒体应用按钮*/
+#Multimedia_Bt{
+    border-style:none;
+    background:transparent;
+}
+#Multimedia_Bt:hover{
+    border-radius:3px;
+    padding-top:0px ;
+    border: 1px solid rgb(200 , 200 , 200);
+}
+/*注册界面*/
+/*注册按钮*/
+#logbt{
+    border-style:none;
+    background:transparent;
+}
+#logbt:hover{
+    border-radius:3px;
+    padding-top:0px ;
+    border: 1px solid rgb(200 , 200 , 200);
+}
+/*创建讨论组/群聊*/
+#UDP_addBt{
+    border-style:none;
+    background:transparent;
+}
+#UDP_addBt:hover{
+    border-radius:3px;
+    padding-top:0px ;
+    border: 1px solid rgb(200 , 200 , 200);
+}
+/*tcp聊天窗口控件设置*/
+#expreBt{
+    border-style:none;
+    background:transparent;
+    qproperty-icon:url(:/tcp/表情.png);
+}
+#expreBt:hover{
+    border-radius:3px;
+    padding-top:0px;
+    border: 1px solid rgb(200,200,200);
+}
+
+#GIFBt{
+    border-style:none;
+    background:transparent;
+    qproperty-icon:url(:/tcp/动态图.png);
+}
+#GIFBt:hover{
+    border-radius:3px;
+    padding-top:0px;
+    border: 1px solid rgb(200,200,200);
+}
+
+#shotBt{
+    border-style:none;
+    background:transparent;
+    qproperty-icon:url(:/tcp/截图.png);
+}
+#shotBt:hover{
+    border-radius:3px;
+    padding-top:0px;
+    border: 1px solid rgb(200,200,200);
+}
+
+#send_fileBt{
+    border-style:none;
+    background:transparent;
+    qproperty-icon:url(:/tcp/文件.png);
+}
+#send_fileBt:hover{
+    border-radius:3px;
+    padding-top:0px;
+    border: 1px solid rgb(200,200,200);
+}
+
+#send_picBt{
+    border-style:none;
+    background:transparent;
+    qproperty-icon:url(:/tcp/图片.png);
+}
+#send_picBt:hover{
+    border-radius:3px;
+    padding-top:0px;
+    border: 1px solid rgb(200,200,200);
+}
+
+#otherBt{
+    border-style:none;
+    background:transparent;
+    qproperty-icon:url(:/tcp/其他.png);
+}
+#otherBt:hover{
+    border-radius:3px;
+    padding-top:0px;
+    border: 1px solid rgb(200,200,200);
+}
+
+/*群聊聊天窗口控件设置*/
+#expreBt_2{
+    border-style:none;
+    background:transparent;
+    qproperty-icon:url(:/tcp/表情.png);
+}
+#expreBt_2:hover{
+    border-radius:3px;
+    padding-top:0px;
+    border: 1px solid rgb(200,200,200);
+}
+
+#GIFBt_2{
+    border-style:none;
+    background:transparent;
+    qproperty-icon:url(:/tcp/动态图.png);
+}
+#GIFBt_2:hover{
+    border-radius:3px;
+    padding-top:0px;
+    border: 1px solid rgb(200,200,200);
+}
+
+#shotBt_2{
+    border-style:none;
+    background:transparent;
+    qproperty-icon:url(:/tcp/截图.png);
+}
+#shotBt_2:hover{
+    border-radius:3px;
+    padding-top:0px;
+    border: 1px solid rgb(200,200,200);
+}
+
+#send_fileBt_2{
+    border-style:none;
+    background:transparent;
+    qproperty-icon:url(:/tcp/文件.png);
+}
+#send_fileBt_2:hover{
+    border-radius:3px;
+    padding-top:0px;
+    border: 1px solid rgb(200,200,200);
+}
+
+#send_picBt_2{
+    border-style:none;
+    background:transparent;
+    qproperty-icon:url(:/tcp/图片.png);
+}
+#send_picBt_2:hover{
+    border-radius:3px;
+    padding-top:0px;
+    border: 1px solid rgb(200,200,200);
+}
+
+#otherBt_2{
+    border-style:none;
+    background:transparent;
+    qproperty-icon:url(:/tcp/其他.png);
+}
+#otherBt_2:hover{
+    border-radius:3px;
+    padding-top:0px;
+    border: 1px solid rgb(200,200,200);
+}
+
+
+/*应用管理器的界面设置样式*/
+
+/*多媒体工具类*/
+#media_groupBox{
+    /*background-color: rgb(235, 235, 235);*/
+}
+/*音乐播放器按钮*/
+#music_play{
+    qproperty-icon:url(:/media/music.png);
+    qproperty-iconSize: 100px 90px;
+    qproperty-toolButtonStyle: ToolButtonTextUnderIcon;
+    border-style:none;
+}
+/*视频播放器按钮*/
+#video_play{
+    qproperty-icon:url(:/media/visio.png);
+    qproperty-iconSize: 100px 90px;
+    qproperty-toolButtonStyle: ToolButtonTextUnderIcon;
+    border-style:none;
+}
